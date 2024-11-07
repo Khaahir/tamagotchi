@@ -61,14 +61,12 @@ body {
 }
 
 .interact--btns {
-  height: 3rem;
-  width: 8rem;
+  height: 5rem;
+  width: 10rem;
   border-radius: 1rem;
-  border-style: double;
   color: rgb(0, 0, 0);
   background-color: rgb(255, 0, 0);
   font-size: 2rem;
-  border: dashed;
 }
 .btn-continer {
   display: flex;
@@ -124,4 +122,30 @@ body {
   font-size: 2rem;
   background-color: antiquewhite;
   border-radius: 2rem;
+}
+
+.money {
+  grid-column: 20 / 22;
+  grid-row: 23 / 24;
+  justify-self: end;
+  align-self: center;
+  margin: 0.2rem;
+  font-size: 1.5rem;
+}
+
+.money-icon {
+  grid-column: 22 / span 25;
+  grid-row: 23 / 24;
+  font-size: 1.5rem;
+}
+
+.working-text {
+  grid-column: 13 / 20;
+  grid-row: 15/20;
+  font-size: 2rem;
+}
+.new-game {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
 }
